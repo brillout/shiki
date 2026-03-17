@@ -1,5 +1,5 @@
 {
-  "name": "@shikijs/transformers",
+  "name": "@brillout/shiki-transformers",
   "type": "module",
   "version": "4.0.2",
   "description": "Collective of common transformers transformers for Shiki",
@@ -14,6 +14,7 @@
   "bugs": "https://github.com/shikijs/shiki/issues",
   "keywords": [
     "shiki",
+    "@brillout/shiki-transformers",
     "@shikijs/transformers"
   ],
   "sideEffects": false,
@@ -28,6 +29,9 @@
   ],
   "engines": {
     "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsdown",

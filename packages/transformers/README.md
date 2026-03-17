@@ -1,4 +1,4 @@
-# @shikijs/transformers
+# @brillout/shiki-transformers
 
 Common transformers for [shiki](https://github.com/shikijs/shiki), inspired by [shiki-processor](https://github.com/innocenzi/shiki-processor).
 
