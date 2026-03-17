@@ -173,6 +173,22 @@ console.log('Not highlighted')
 - `// [!code highlight]` outputs: `<span class="line highlighted">`
 - The outer `<pre>` tag is modified: `<pre class="has-highlighted">`
 
+You can pass a color to customize the highlighted line:
+
+````md
+```ts
+console.log('Custom color') // [\!code highlight:#abc]
+```
+````
+
+Renders:
+
+```ts
+console.log('Custom color') // [!code highlight:#abc]
+```
+
+- `// [!code highlight:#abc]` outputs: `<span class="line highlighted" style="background-color:#abc">`
+
 You can also highlight multiple lines with a single comment:
 
 ````md
